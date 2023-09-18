@@ -20,13 +20,15 @@
     --portolio-color:#362d2d;
     --input-bg:#312d2d;
     --footer-bg:#171515;
+    --logo-color:#0BFD0B;
 
-    --h1-fs: 45px;
-    --h2-fs:34px;
-    --h3-fs:24px;
-    --h4-fs:20px;
-    --p-fs: 18px;
-    --nav-links:20px;
+    --h1-fs: 80px; /* 45px*/
+    --logo-fs:40px; /* 40px*/
+    --h2-fs:50px; /*34px */
+    --h3-fs:40px; /* 24px*/
+    --h4-fs:35px; /*20px */
+    --p-fs: 25px; /* */
+    --nav-links:28px; /* */
     --font-family: 'Montserrat', sans-serif;
     --h1-fw:800;
     --logo-fw:700;
@@ -38,8 +40,51 @@
 }
 
 /* Header Section Start */
-.container {
-    text-align:center
+header {
+    z-index: 1000;
+}
+div .logo-whole {
+    font-size:var(--logo-fs);
+    font-weight:var(--logo-fw)
 }
 
+.logo-2 {
+    color:var(--logo-color)
+}
+
+.navbar-nav li:hover {
+    border: 2px solid var(--text-color);
+}
+
+.navbar-nav li:active {
+    border-bottom:2px solid var(--text-color)
+}
+
+div.navbar-collapse {
+    z-index:1000;
+}
+/* Header Section End */
+
+/* Home Section Start */
+.home {
+    background-image: url('./bg-1.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:var(--text-color);
+    z-index:-1
+}
+
+.home h1 {
+    font-size:var(--h1-fs);
+    font-weight: var(--h1-fw);
+    z-index:-1
+}
+
+.home h2 {
+    font-size:var(--h2-fs);
+    font-weight:var(--h2-fw);
+    z-index:-1
+}
+/* Home Section End */
 
