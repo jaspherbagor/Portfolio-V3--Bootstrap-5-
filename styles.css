@@ -119,6 +119,30 @@ h5 span.text-emphasize {
 
 /* Portfolio Section Start */
 section.portfoilio {
-    background:var(--po)
+    background:var(--portfolio-section-bg)
 }
+
+.carousel-item img {
+    border:2px solid var(--logo-color);
+    border-radius:10px
+}
+
+div.carousel-caption h5 button a {
+    font-size: var(--h5-fs);
+    font-weight:var(--h4-fw);
+    
+}
+
+div.carousel-caption h5 button {
+    background:var(--button-color);
+    padding:20px;
+    border:2px solid var(--primary-color);
+    border-radius:5px;
+    box-shadow: 10px 10px 10px 10px var(--logo-color);
+}
+
+div.carousel-caption h5 button:hover {
+    background:var(--button-color)
+}
+
 /* Portfolio Section End */
