@@ -27,7 +27,8 @@
     --h2-fs:50px; /*34px */
     --h3-fs:40px; /* 24px*/
     --h4-fs:35px; /*20px */
-    --p-fs: 25px; /* */
+    --h5-fs: 25px;
+    --p-fs: 20px; /* */
     --nav-links:28px; /* */
     --font-family: 'Montserrat', sans-serif;
     --h1-fw:800;
@@ -40,9 +41,10 @@
 }
 
 /* Header Section Start */
-header {
-    z-index: 1000;
+.header-elements:hover {
+    background:var(--primary-color);
 }
+
 div .logo-whole {
     font-size:var(--logo-fs);
     font-weight:var(--logo-fw)
@@ -59,10 +61,6 @@ div .logo-whole {
 .navbar-nav li:active {
     border-bottom:2px solid var(--text-color)
 }
-
-div.navbar-collapse {
-    z-index:1000;
-}
 /* Header Section End */
 
 /* Home Section Start */
@@ -71,8 +69,6 @@ div.navbar-collapse {
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
-    color:var(--text-color);
-    z-index:-1
 }
 
 .home h1 {
@@ -88,3 +84,34 @@ div.navbar-collapse {
 }
 /* Home Section End */
 
+/* About Section Start */
+.about {
+    background: var(--about-section-bg)
+}
+
+.about-elements h2 {
+    font-size:var(--h2-fs);
+    font-weight:var(--h2-fw);
+}
+
+.about-img img {
+    width:200px;
+    height:250px;
+    border-radius:50%;
+    border:2px solid var(--logo-color);
+}
+
+h5 span.text-emphasize {
+    color:var(--logo-color)
+}
+
+.about-text h5 {
+    font-size:var(--h5-fs);
+    font-weight:var(--h4-fw);
+}
+
+.about-text p {
+    font-size:var(--p-fs);
+    font-weight:var(--p-fw)
+}
+/* About Section End */
