@@ -18,6 +18,7 @@
     --button-color: #45893a;
     --text-color: #f6f4f4;
     --portolio-color:#362d2d;
+    --portfolio-section-bg: #d9d9d9;
     --input-bg:#312d2d;
     --footer-bg:#171515;
     --logo-color:#0BFD0B;
@@ -115,3 +116,9 @@ h5 span.text-emphasize {
     font-weight:var(--p-fw)
 }
 /* About Section End */
+
+/* Portfolio Section Start */
+section.portfoilio {
+    background:var(--po)
+}
+/* Portfolio Section End */
