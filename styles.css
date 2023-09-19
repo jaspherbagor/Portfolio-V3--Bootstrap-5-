@@ -139,12 +139,30 @@ button.see-more-btn {
 
 button.see-more-btn a {
     font-size:var(--p-fs);
-    font-weight:var(--h3-fw);
+    font-weight:var(--h2-fw);
 }
 
 button.see-more-btn:hover {
     background:transparent;
-    border:2px solid var(--button-color)
+    border:2px solid var(--button-color);
+    color:var(--primary-color)
 }
 /* Portfolio Section End */
 
+/* Contact Section Start */
+button.download-cv-btn {
+    background:var(--button-color);
+    padding:20px;
+    border-radius:10px
+}
+
+button.download-cv-btn a {
+    font-size:var(--p-fs);
+    font-weight:var(--h2-fw);
+}
+
+button.download-cv-btn:hover {
+    background:transparent;
+    border:2px solid var(--button-color);
+}
+/* Contact Section End */
