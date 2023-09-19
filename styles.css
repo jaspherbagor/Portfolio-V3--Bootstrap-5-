@@ -150,6 +150,16 @@ button.see-more-btn:hover {
 /* Portfolio Section End */
 
 /* Contact Section Start */
+.left-contact h5 {
+    font-size:var(--h5-fs);
+    font-weight:var(--h4-fw)
+}
+
+.contact-links a {
+    font-size: var(--h3-fs);
+    font-weight:var(--h2-fw)
+}
+
 button.download-cv-btn {
     background:var(--button-color);
     padding:20px;
