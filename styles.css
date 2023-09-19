@@ -142,4 +142,20 @@ div.carousel-caption h4 {
 div.carousel-caption h4 a:hover {
     background:var(--button-color)
 }
+
+button.see-more-btn {
+    background:var(--button-color);
+    padding:20px;
+    border-radius:10px
+}
+
+button.see-more-btn a {
+    font-size:var(--p-fs);
+    font-weight:var(--h3-fw);
+}
+
+button.see-more-btn:hover {
+    background:transparent;
+    border:2px solid var(--button-color)
+}
 /* Portfolio Section End */
