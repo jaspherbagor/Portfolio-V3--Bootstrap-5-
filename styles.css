@@ -108,7 +108,7 @@ h5 span.text-emphasize {
 
 .about-text h4 {
     font-size:var(--h4-fs);
-    font-weight:var(--h4-fw);
+    font-weight:var(--h3-fw);
 }
 
 .about-text p {
@@ -122,17 +122,24 @@ section.portfolio {
     background:var(--portfolio-section-bg)
 }
 
+section.portfolio h2 {
+    font-size:var(--h2-fs);
+    font-weight:var(--h2-fw)
+}
+
 .carousel-item img {
     border:2px solid var(--logo-color);
     border-radius:10px;
 }
     
-div.carousel-caption h5 {
-color:var(--button-color);
+div.carousel-caption h4 {
+    font-size:var(--h4-fs);
+    font-weight:var(--h3-fw);
+    padding-bottom:50px;
+    text-shadow: 5px 5px 10px var(--logo-color)
 }
 
-div.carousel-caption h5:hover {
+div.carousel-caption h4 a:hover {
     background:var(--button-color)
 }
-
 /* Portfolio Section End */
