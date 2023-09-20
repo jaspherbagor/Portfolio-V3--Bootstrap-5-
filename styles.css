@@ -203,5 +203,9 @@ button[type=submit]:hover {
     --h5-fs: 20px;
     --p-fs: 18px; /*18px*/
     }
+
+    body {
+        word-wrap:break-word;
+    }
 }
 /* Media Queries Ending */
