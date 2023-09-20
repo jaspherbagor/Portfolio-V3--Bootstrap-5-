@@ -5,17 +5,7 @@ window.addEventListener ("scroll", function() {
 });
 
 let menu = document.querySelector('#menu-icon');
-let navlists = document.querySelector('.navlists');
-
-menu.onclick = () => {
-    menu.classList.toggle('bx-x');
-    navlists.classList.toggle('open');
-}
-
-window.onscroll = () => {
-    menu.classList.remove('bx-x');
-    navlists.classList.remove('open');
-}
+let navbar = document.querySelector('.navbar-nav');
 
 const sr = ScrollReveal ({
     distance: '40px',
@@ -25,8 +15,8 @@ const sr = ScrollReveal ({
 });
 
 sr.reveal('.hero-text', {origin:'top'});
-sr.reveal('.about-img, .service-item, .about-text',{origin:'bottom'});
-sr.reveal('.about-text h2, .text-center, .right-contact h2',{origin:'top'});
-sr.reveal('.left-contact', {origin:'left'});
+sr.reveal('.carousel-inner, .about-text',{origin:'bottom'});
+sr.reveal('.about-text h2, .contact-h2, .text-center',{origin:'top'});
+sr.reveal('.about-img, .left-contact', {origin:'left'});
 sr.reveal('.right-contact', {origin:'right'});
-sr.reveal('.end-section', {origin:'top'});
+sr.reveal('.download-cv-btn', {origin:'top'});

@@ -22,6 +22,7 @@
     --input-bg:#312d2d;
     --footer-bg:#171515;
     --logo-color:#0BFD0B;
+    --contact-section-bg: #3e3c3c;
 
     --h1-fs: 80px; /* 45px*/
     --logo-fs:40px; /* 40px*/
@@ -41,8 +42,8 @@
 }
 
 /* Header Section Start */
-.header-elements:hover {
-    background:var(--primary-color);
+#navbarNav:hover, .header-elements:hover {
+    background:#000
 }
 
 div .logo-whole {
@@ -56,11 +57,9 @@ div .logo-whole {
 
 .navbar-nav li:hover {
     border: 2px solid var(--text-color);
+    background:var(--button-color)
 }
 
-.navbar-nav li:active {
-    border-bottom:2px solid var(--text-color)
-}
 /* Header Section End */
 
 /* Home Section Start */
@@ -74,17 +73,23 @@ div .logo-whole {
 .home h1 {
     font-size:var(--h1-fs);
     font-weight: var(--h1-fw);
-    z-index:-1
+    z-index:-100
 }
 
 .home h2 {
     font-size:var(--h2-fs);
     font-weight:var(--h2-fw);
-    z-index:-1
+    z-index:-100
 }
 /* Home Section End */
 
 /* About Section Start */
+header.sticky {
+    /* padding: 15px 11%; */
+    background:#000;
+    border-bottom: 1px solid #4e5055
+}
+
 .about {
     background: var(--about-section-bg)
 }
@@ -133,14 +138,13 @@ section.portfolio h2 {
 
 button.see-more-btn {
     background:var(--button-color);
-    padding:20px;
     border-radius:10px
 }
 
-button.see-more-btn a {
+/* button.see-more-btn a {
     font-size:var(--p-fs);
     font-weight:var(--h2-fw);
-}
+} */
 
 button.see-more-btn:hover {
     background:transparent;
@@ -150,6 +154,9 @@ button.see-more-btn:hover {
 /* Portfolio Section End */
 
 /* Contact Section Start */
+section.contact {
+    background:var(--contact-section-bg)
+}
 
 .contact h2 {
     font-size:var(--h2-fs);
@@ -161,24 +168,35 @@ button.see-more-btn:hover {
     font-weight:var(--h4-fw)
 }
 
-.contact-links a {
-    font-size: var(--h3-fs);
-    font-weight:var(--h2-fw)
-}
-
 button.download-cv-btn {
     background:var(--button-color);
-    padding:20px;
     border-radius:10px
-}
-
-button.download-cv-btn a {
-    font-size:var(--p-fs);
-    font-weight:var(--h2-fw);
 }
 
 button.download-cv-btn:hover {
     background:transparent;
     border:2px solid var(--button-color);
 }
+
+button[type=submit] {
+    background:var(--button-color)
+}
+
+button[type=submit]:hover {
+    background:transparent;
+    border:2px solid var(--button-color)
+}
 /* Contact Section End */
+
+/* Footer Section Start */
+a.scroll-btn i {
+        position:fixed;
+        right:1rem;
+        bottom:2.2rem;
+        color:#242323;
+        background:var(--logo-color);
+        font-size:23px;
+        border-radius:0.8rem;
+        opacity:0.75;
+    }
+/* Footer Section End */
