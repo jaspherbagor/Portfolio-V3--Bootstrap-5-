@@ -150,6 +150,12 @@ button.see-more-btn:hover {
 /* Portfolio Section End */
 
 /* Contact Section Start */
+
+.contact h2 {
+    font-size:var(--h2-fs);
+    font-weight: var(--h2-fw);
+}
+
 .left-contact h5 {
     font-size:var(--h5-fs);
     font-weight:var(--h4-fw)
