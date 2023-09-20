@@ -191,3 +191,17 @@ button[type=submit]:hover {
     border:2px solid var(--button-color)
 }
 /* Contact Section End */
+
+/* Media Queries Starting */
+@media only screen and (max-width:772px) {
+    :root {
+    --h1-fs: 45px; /* 45px*/
+    --logo-fs:40px; /* 40px*/
+    --h2-fs:34px; /*34px */
+    --h3-fs:24px; /* 24px*/
+    --h4-fs:22px; /*20px */
+    --h5-fs: 20px;
+    --p-fs: 18px; /*18px*/
+    }
+}
+/* Media Queries Ending */
