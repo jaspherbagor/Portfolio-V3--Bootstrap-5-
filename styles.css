@@ -73,13 +73,11 @@ div .logo-whole {
 .home h1 {
     font-size:var(--h1-fs);
     font-weight: var(--h1-fw);
-    z-index:-100
 }
 
 .home h2 {
     font-size:var(--h2-fs);
     font-weight:var(--h2-fw);
-    z-index:-100
 }
 /* Home Section End */
 
@@ -141,11 +139,6 @@ button.see-more-btn {
     border-radius:10px
 }
 
-/* button.see-more-btn a {
-    font-size:var(--p-fs);
-    font-weight:var(--h2-fw);
-} */
-
 button.see-more-btn:hover {
     background:transparent;
     border:2px solid var(--button-color);
@@ -187,16 +180,3 @@ button[type=submit]:hover {
     border:2px solid var(--button-color)
 }
 /* Contact Section End */
-
-/* Footer Section Start */
-a.scroll-btn i {
-        position:fixed;
-        right:1rem;
-        bottom:2.2rem;
-        color:#242323;
-        background:var(--logo-color);
-        font-size:23px;
-        border-radius:0.8rem;
-        opacity:0.75;
-    }
-/* Footer Section End */
