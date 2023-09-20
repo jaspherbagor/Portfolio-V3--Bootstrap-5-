@@ -122,7 +122,7 @@
         <div class="text-left px-5">
             <h2>Contact Me</h2>
         </div>
-        <div class="container-fluid text-left">
+        <div class="container-fluid d-flex text-left">
 
               <div class="left-contact col-md bg-warning w-50 p-5">
                         <h5><a href="mailto:jaspherbagor0357@gmail.com" class="email-add text-white text-decoration-none" target="_blank"><i class='bx bxs-envelope'></i>  jaspherbagor0357@gmail.com</a></h5>
@@ -148,16 +148,13 @@
               <div class="col-md bg-success w-50 p-5 my-2">
                 <form action="/action_page.php">
                     <div class="mb-3 mt-3">
-                        <label for="name" class="form-label">Name:</label>
-                        <input type="email" class="form-control" id="name" placeholder="name" name="Name">
+                        <input type="email" class="form-control py-2" id="name" placeholder="Your Name" name="Name">
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="password" class="form-control" id="email" placeholder="email" name="Email">
+                        <input type="password" class="form-control py-2" id="email" placeholder="Your email" name="Email">
                     </div>
                     <div class="mb-3">
-                        <label for="phone" class="form-label">Phone:</label>
-                        <input type="tel" class="form-control" id="email" placeholder="phone" name="Phone">
+                        <textarea name="message" id="message" placeholder="Your message" class="p-2 w-100"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
@@ -168,6 +165,25 @@
 
     </section>
     <!-- Contact Section End -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <!-- Content for the first div -->
+                <div class="bg-primary p-3">
+                    <h2>Div 1</h2>
+                    <p>This div is on the left for large screens and stacked on top for smaller screens.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <!-- Content for the second div -->
+                <div class="bg-secondary p-3">
+                    <h2>Div 2</h2>
+                    <p>This div is on the right for large screens and stacked below for smaller screens.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Start-->
     <footer class="footer">
