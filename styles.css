@@ -196,7 +196,7 @@ button[type=submit]:hover {
 @media only screen and (max-width:772px) {
     :root {
     --h1-fs: 45px; /* 45px*/
-    --logo-fs:40px; /* 40px*/
+    --logo-fs:35px; /* 40px*/
     --h2-fs:34px; /*34px */
     --h3-fs:24px; /* 24px*/
     --h4-fs:22px; /*20px */
@@ -206,6 +206,32 @@ button[type=submit]:hover {
 
     body {
         word-wrap:break-word;
+    }
+
+    div.carousel-item {
+        padding:5px !important;
+        margin:auto !important
+    }
+
+    div.left-contact-contents {
+        padding:10px 20px 10px 20px !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .home {
+        background-image:url('')
+    }
+}
+
+
+@media only screen and (max-width:316px) {
+    :root {
+        --logo-fs:28px
+    }
+
+    div.left-contact-contents {
+        padding:10px !important;
     }
 }
 /* Media Queries Ending */
