@@ -192,9 +192,21 @@ button[type=submit]:hover {
 }
 /* Contact Section End */
 
-/* Media Queries Starting */
+/* Footer Section Start */
+footer {
+    background:var(--footer-bg)
+}
+/* Footer Section End */
 
-@media only screen and (max-width:900px) {
+/* Media Queries Starting */
+@media only screen and (max-width:992px) {
+    div.form-container {
+        width:auto
+    }
+}
+
+
+@media only screen and (max-width:1100px) {
     .home {
         background-image:url('./bg-2v3.jpg')
     }
