@@ -9,14 +9,13 @@ let navbar = document.querySelector('.navbar-nav');
 
 const sr = ScrollReveal ({
     distance: '40px',
-    duration:2050,
-    delay:200,
+    duration:1050,
+    delay:60,
     reset:true
 });
 
 sr.reveal('.hero-text', {origin:'top'});
-sr.reveal('.carousel-inner, .about-text',{origin:'bottom'});
-sr.reveal('.about-text h2, .contact-h2, .text-center',{origin:'top'});
+sr.reveal('.about-text',{origin:'bottom'});
+sr.reveal('.about-text h2, .contact-h2',{origin:'top'});
 sr.reveal('.about-img, .left-contact', {origin:'left'});
 sr.reveal('.right-contact', {origin:'right'});
-sr.reveal('.download-cv-btn', {origin:'top'});

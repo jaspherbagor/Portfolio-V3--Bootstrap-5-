@@ -215,7 +215,7 @@ footer {
 
 @media only screen and (max-width:772px) {
     :root {
-    --h1-fs: 45px; /* 45px*/
+    --h1-fs: 50px; /* 45px*/
     --logo-fs:35px; /* 40px*/
     --h2-fs:34px; /*34px */
     --h3-fs:24px; /* 24px*/
