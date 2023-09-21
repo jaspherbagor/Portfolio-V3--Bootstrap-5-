@@ -193,6 +193,14 @@ button[type=submit]:hover {
 /* Contact Section End */
 
 /* Media Queries Starting */
+
+@media only screen and (max-width:900px) {
+    .home {
+        background-image:url('./bg-2v3.jpg')
+    }
+}
+
+
 @media only screen and (max-width:772px) {
     :root {
     --h1-fs: 45px; /* 45px*/
@@ -218,16 +226,25 @@ button[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:750px) {
     .home {
-        background-image:url('')
+        background-image:url('./bg-2v2.jpg')
     }
 }
 
+@media only screen and (max-width:600px) {
+    .home {
+        background-image:url('./bg-2v1.jpg')
+    }
+}
 
 @media only screen and (max-width:316px) {
     :root {
         --logo-fs:28px
+    }
+
+    div.text-left {
+        padding:5px 10px 5px 10px !important;
     }
 
     div.left-contact-contents {
