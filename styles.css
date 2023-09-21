@@ -46,10 +46,6 @@ header {
     z-index:1000
 }
 
-#navbarNav:hover, .header-elements:hover {
-    background:#000
-}
-
 div .logo-whole {
     font-size:var(--logo-fs);
     font-weight:var(--logo-fw)
@@ -57,11 +53,6 @@ div .logo-whole {
 
 .logo-2 {
     color:var(--logo-color)
-}
-
-.navbar-nav li:hover {
-    border: 2px solid var(--text-color);
-    background:var(--button-color)
 }
 
 /* Header Section End */
@@ -173,12 +164,12 @@ button.download-cv-btn {
 
 button.download-cv-btn:hover {
     background:transparent;
-    border:2px solid var(--button-color);
+    border:1px solid var(--button-color);
 }
 
 input[type=text], input[type=email], .text-area {
-    border-radius:10px;
-    border:1px solid var(--button-color);
+    border-radius:0;
+    border:1px solid black;
     font-size:var(--p-fs)
 }
 
@@ -197,6 +188,7 @@ footer {
     background:var(--footer-bg)
 }
 /* Footer Section End */
+
 
 /* Media Queries Starting */
 @media only screen and (max-width:992px) {

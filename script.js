@@ -16,6 +16,6 @@ const sr = ScrollReveal ({
 
 sr.reveal('.hero-text', {origin:'top'});
 sr.reveal('.about-text',{origin:'bottom'});
-sr.reveal('.about-text h2, .contact-h2',{origin:'top'});
+sr.reveal('.about-text h2, .contact-h2, .portfolio-head h2',{origin:'top'});
 sr.reveal('.about-img, .left-contact', {origin:'left'});
 sr.reveal('.right-contact', {origin:'right'});
